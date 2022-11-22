@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import Intro from '../components/Intro'
 
 export default function Home() {
   return (
@@ -10,8 +9,7 @@ export default function Home() {
         <title>Set Kenya</title>
         <meta name="description" content="Student Empowerment Team Kenya" />
       </Head>
-    
-    <h1 className={styles.title}>This is the homepage! </h1>
+    <Intro />
     </div>
   )
 }
