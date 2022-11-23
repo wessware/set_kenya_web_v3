@@ -19,7 +19,7 @@
     margin: 0;
 }
 .brand {
-    color: green;
+    color: yellow;
 }
 .desc {
     font-size: 20px;
@@ -27,9 +27,9 @@
 }
 .button {
     border: none;
-    background-color: green;
-    color: white;
-    font-weight: bold;
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
     width: 100px;
     padding: 20px;
     border-radius: 10px;

@@ -5,22 +5,22 @@ import styles from '../styles/Navbar.module.css'
 const Navbar = () => {
   return (
     <div className={styles.container}>
-      <Link href='/'>SET KENYA</Link>
+      <Link href='/'>Student Empowerment Team Kenya</Link>
       <ul className={styles.list}>
         <li className={styles.listItem}>
-          <Link href="/products/design">DESIGN</Link>
+          <Link href="/set/about">About</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="/products/development">DEVELOPMENT</Link>
+          <Link href="/set/executive">Executive</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="/products/production">PRODUCTION</Link>
+          <Link href="/set/news">News</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="/products/photography">PHOTOGRAPHY</Link>
+          <Link href="/set/blog">Blog</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="/products/contact">CONTACT</Link>
+          <Link href="/set/contact">Contact</Link>
         </li>
       </ul>
 

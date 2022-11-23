@@ -18,7 +18,7 @@ const Intro = () => {
             <button className={styles.button}>DISCOVER</button>
         </div>
         <div className={styles.card}>
-            <Image src='/img/blog4.jpg' alt='' layout='fill' objectFit='cover'/>
+            <Image src='/img/bg7.jpg' alt='' layout='fill' objectFit='cover'/>
         </div>
 
     </div>
