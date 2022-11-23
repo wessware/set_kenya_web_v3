@@ -8,7 +8,7 @@ const Services = () => {
         <h1 className={styles.subtitle}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
 
         <div className={styles.services}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident numquam minus non.
+          
         </div>
 
     </div>

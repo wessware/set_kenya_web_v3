@@ -3,7 +3,9 @@ import styles from '../styles/Home.module.css'
 import Intro from '../components/Intro'
 import Services from '../components/Services'
 
-export default function Home() {
+import { data } from "../data"
+
+export default function Home({services}) {
   return (
     <div>
       <Head>
@@ -14,4 +16,13 @@ export default function Home() {
     <Services />
     </div>
   )
+}
+
+
+export const getStaticProps = async () => {
+  const services = data
+
+  return {
+    props: {services}
+  }
 }
